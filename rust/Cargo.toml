@@ -1,0 +1,9 @@
+[package]
+name = "benchgc"
+version = "0.1.0"
+authors = ["Bochun Bai 00535456 <bochun.bai@huawei.com>"]
+edition = "2018"
+
+[dependencies]
+rayon = "1.3.0"               # Simple work-stealing parallelism for Rust
+typed-arena = "2.0.1"                 # The arena, a fast but limited type of allocator
